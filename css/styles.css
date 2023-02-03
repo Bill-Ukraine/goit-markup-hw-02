@@ -1,0 +1,144 @@
+:root {
+  --color-first: #2e2f42;
+  --color-second: #434455;
+  --color-third: #ffffff;
+  --color-fourth: #f4f4fd;
+  --color-fifth: #4d5ae5;
+  --color-sixth: #e7e9fc;
+  --color-seventh: #404bbf;
+}
+body {
+  font-family: roboto;
+  color: var(--color-first);
+  background-color: var(--color-third);
+}
+li {
+  list-style-type: none;
+}
+
+/* Header */
+
+.webstudio {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  color: var(--color-first);
+}
+.logo-web {
+  text-transform: uppercase;
+  color: var(--color-fifth);
+}
+.header-link {
+  text-decoration: none;
+  color: var(--color-first);
+}
+.header-link-address {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--color-second);
+}
+
+/* Section 1 */
+
+.hero {
+  background-color: var(--color-first);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-third);
+}
+.hero-title > span {
+  display: block;
+}
+.hero-button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-third);
+  background-color: var(--color-fifth);
+  border-radius: 4px;
+}
+
+/* Section 3 */
+
+.our-team {
+  background-color: var(--color-fourth);
+}
+.our-team > h2,
+.we-doing > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+.title-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.cards-team > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-second);
+}
+.cards-team {
+  background-color: var(--color-third);
+}
+
+/* Portfolio */
+.portfolio-title,
+.our-advantages {
+  visibility: hidden;
+}
+.button-filters {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid var(--color-sixth);
+  border-radius: 4px;
+  color: var(--color-fifth);
+  background-color: var(--color-fourth);
+}
+.button-filters:hover,
+.button-filters:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--color-third);
+  background-color: var(--color-seventh);
+}
+.title-cards {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-first);
+}
+.portfolio-links {
+  text-decoration: none;
+}
+.portfolio-links > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--color-second);
+}
+
+/* Footer */
+
+.footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-sixth);
+  background-color: var(--color-first);
+}
+.logo-studio-footer {
+  color: var(--color-fourth);
+}
